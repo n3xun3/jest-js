@@ -1,6 +1,7 @@
 import { sum } from '../core/sum';
 
-test('should sum two numbers', () => {
+describe('Use Case', () => {
+    test('should sum two numbers', () => {
     //Arrange
     const a = 1;
     const b = 2;
@@ -11,4 +12,5 @@ test('should sum two numbers', () => {
 
     //Assert
     expect(result).toBe(expected);
+})
 })
